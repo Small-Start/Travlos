@@ -71,6 +71,18 @@
         <activity
             android:name=".Timeplan"
             android:label="@string/title_activity_routemap"></activity>
+        <activity
+            android:name=".Qutub"
+            android:label="@string/title_activity_routemap"></activity>
+        <activity
+            android:name=".Redfort"
+            android:label="@string/title_activity_routemap"></activity>
+        <activity
+            android:name=".Chandni"
+            android:label="@string/title_activity_routemap"></activity>
+        <activity
+            android:name=".Zoo"
+            android:label="@string/title_activity_routemap"></activity>
     </application>
 
 </manifest>

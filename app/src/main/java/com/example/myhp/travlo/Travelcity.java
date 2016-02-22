@@ -54,5 +54,51 @@ Class ch=null;
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+        switch(position){
+            case 0:
+                Class ch=null;
+                try {
+                    ch=Class.forName("com.example.myhp.travlo.Qutub");
+                    Intent in=new Intent(Travelcity.this,ch);
+                    startActivity(in);
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
+                }
+                break;
+            case 1:
+                Class ch1=null;
+                try {
+                    ch1=Class.forName("com.example.myhp.travlo.Zoo");
+                    Intent in1=new Intent(Travelcity.this,ch1);
+                    startActivity(in1);
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
+                }
+
+                break;
+            case 2:
+                Class ch2=null;
+                try {
+                    ch2=Class.forName("com.example.myhp.travlo.Redfort");
+                    Intent in2=new Intent(Travelcity.this,ch2);
+                    startActivity(in2);
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
+                }
+
+                break;
+
+            case 3:
+                Class ch3=null;
+                try {
+                    ch3=Class.forName("com.example.myhp.travlo.Chandni");
+                    Intent in3=new Intent(Travelcity.this,ch3);
+                    startActivity(in3);
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
+                }
+
+                break;
+        }
     }
 }

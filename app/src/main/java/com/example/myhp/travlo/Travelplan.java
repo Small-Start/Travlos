@@ -47,7 +47,7 @@ double lat[]={28.524410,28.608547,27.171466,28.650594},lon[]={77.185466,77.23992
         lv=(ListView)findViewById(R.id.listView_plan);
         list = new ArrayList<String>();
         list.add(att[0]);
-        pd=new ProgressDialog(Login.this);
+        pd=new ProgressDialog(Travelplan.this);
         pd.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         pd.setMessage("Loading");
         pd.show();
